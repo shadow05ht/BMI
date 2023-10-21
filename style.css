@@ -29,14 +29,14 @@ ul {
 }
 
 .one {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 80px;
     padding: 15px;
     color: black;
 }
 
 .tool {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 50px;
     padding: 15px;
     color: black;
@@ -47,14 +47,14 @@ h4 {
 }
 
 .two {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 50px;
     padding: 15px;
     color: black;
 }
 
 .three {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
     padding: 15px;
     color: black;
@@ -62,14 +62,14 @@ h4 {
 }
 
 .four {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
     padding: 15px;
     color: black;
 }
 
 .five {
-    font-size: 17px;
+    font-size: 20px;
     padding: 15px;
     color: black;
     margin-bottom: 30px;
@@ -77,28 +77,28 @@ h4 {
 }
 
 .six {
-    font-size: 20px;
+    font-size: 24px;
     padding: 15px;
     color: black;
     margin-bottom: 30px;
 }
 
 .seven {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
     padding: 15px;
     color: black;
 }
 
 .eight {
-    font-size: 17px;
+    font-size: 20px;
     padding: 15px;
     color: black;
     margin-left: 20px;
 }
 
 .nine {
-    font-size: 20px;
+    font-size: 24px;
     padding: 15px;
     color: black;
     margin-bottom: 30px;
