@@ -4,8 +4,16 @@
 }
 
 body {
-    background-color: black;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Ramaraja', serif;
+}
+
+p {
+    font-family: 'Ramaraja', serif;
+}
+
+h1 {
+
+    font-family: 'Ramaraja', serif;
 }
 
 .f {
@@ -117,7 +125,7 @@ h1 {
     margin-top: 50px;
 }
 
-.c{
+.c {
     text-align: center;
     margin-bottom: 34px;
 }
