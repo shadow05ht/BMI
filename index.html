@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>BMI</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navbar">
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BMI kalkulyator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Cedvel">Cədvəl</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hesab">Hesab</a>
+                    </li>
+                    <li class="nav-item dropdown bg-dark ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            BMI cədvəli
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#yas">BMI stolu uşaqlar və yeniyetmələr üçün, 2-20
+                                    yaş</a></li>
+                            <li><a class="dropdown-item" href="#artiq">Artıq çəki ilə bağlı risklər</a></li>
+                            <li><a class="dropdown-item" href="#az">Çəkinin az olması ilə bağlı risklər</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="Home">
+        <p class="one">BMI - insanın boyunun və çəkisinin əsasında onun arıqlığının və ya korporamentinin ölçülməsidir
+            və toxuma
+            kütləsinin kvantlaşdırılması məqsədi daşıyır. Bu, insanın boyuna görə sağlam bədən çəkisinin
+            olub-olmamasının ümumi göstəricisi kimi geniş istifadə olunur. Konkret olaraq BMI-nin hesablanmasından əldə
+            edilən dəyər, dəyərin hansı aranın arasında düşməsindən asılı olaraq insanın çəkisinin az, normal çəkisinin,
+            artıq çəkinin və ya piylənmənin olub-olmamasını kateqoriyalaşdırmaq üçün istifadə olunur. BMI-nin bu aralığı
+            region və yaş kimi faktorlara görə fərqlənir və bəzən daha da ağır çəki və ya çox ağır piylənmə kimi alt
+            kateqoriyalara bölünür. Artıq çəki və ya çəkidən əziyyət çəkən olmaq sağlamlığa əhəmiyyətli təsir göstərə
+            bilər. Buna görə də BMI sağlam bədən çəkisinin qeyri-kamil ölçüsü olsa da, bu, hər hansı əlavə test və ya
+            hərəkətin tələb olunması üçün faydalı göstəricidir. Kalkulyatorun istifadə etdiyi BMI əsasında müxtəlif
+            kateqoriyaları görmək üçün aşağıdakı cədvələ istinad edin.</p>
+    </div>
+
+
+    <div id="Cedvel">
+        <div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Sinifləndirmə</th>
+                        <th scope="col">BMI aralığı - kq/m <sup>2</sup></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Kəskin cılızlıq</td>
+                        <td>
+                            < 16</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Orta səviyyəli cılızlıq</td>
+                        <td>16 - 17</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Mülayim İncəlik </td>
+                        <td>17 - 18.5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Normal</td>
+                        <td>18.5 - 25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Artıq çəki</td>
+                        <td>25 - 30</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>I sinif obese</td>
+                        <td>30 - 35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>II. Obese sinfi</td>
+                        <td>30 - 35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>III. Obese sinfi</td>
+                        <td>> 40</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div id="Hesab">
+        <p class="two">Artıq çəki olmaq bir sıra ağır xəstəliklərin və sağlamlıq vəziyyətinin riskini artırır.
+            Xəstəliklərin Kontrol
+            və Qarşısının Alınması Mərkəzinin (CDC) məlumatına görə, aşağıda deyilən risklərin siyahısı verilmişdir:
+
+            Yüksək qan təzyiqi
+            Geniş yayılmış "pis xolesterol" sayılan LDL xolesterinin yüksək səviyyəsi, orta səviyyədə yaxşı xolesterol
+            hesab edilən HDL xolesterinin səviyyəsinin aşağı olması, triqliseridlərin yüksək səviyyədə olması
+            II tip şəkərli diabet
+            Koronar ürək xəstəlikləri
+            İnsult
+            Qəlsəli xəstəlik
+            Oynaq sidik kisəsinin parçalanması nəticəsində yaranan oynaq xəstəliklərinin bir növü olan osteoxondroz
+            Yuxu apnesi və nəfəsalma problemləri
+            Müəyyən xərçənglər (endometrial, döş, kolon, böyrək, qələbi, qaraciyər)
+            Həyat keyfiyyətinin aşağı olması
+            Klinik depressiya, narahatlıq və digər kimi psixi xəstəliklər
+            Bədən ağrıları və müəyyən fiziki funksiyalarla çətinlik
+            Əsasən, BMi-nin sağlam olması ilə müqayisədə ölüm riskinin artması
+            Yuxarıdakı siyahıdan da göründüyü kimi, çox sayda mənfi, bəzi hallarda ölümlə nəticələnən nəticələr var ki,
+            bu da artıq çəkidən irəli gələ bilər. Əsasən insan 25 kq/m 2-dən aşağı BMI saxlamağa çalışmalıdır. Lakin
+            ideal olaraq həkimə müraciət edərək, daha sağlam olmaq üçün həyat tərzində hər hansı dəyişiklik etmək lazım
+            olub-olmadığını müəyyən etməlidir.</p>
+    </div>
+
+
+    <div id="bmi"></div>
+
+
+    <div>
+        <h1 id="yas">BMI stolu uşaqlar və yeniyetmələr üçün</h1>
+        <p class="three">Xəstəliklərin Kontrol və Qarşısının Alınması Mərkəzləri (CDC) 2-20 yaş arası uşaqlar və
+            yeniyetmələr üçün BMI kateqoriyalaşdırılmasını tövsiyə edir.</p>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">
+                        Kateqoriya</th>
+                    <th scope="col">Faiz aralığı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Çəkinin altında</td>
+                    <td>
+                        <5%< /td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Sağlam çəki</td>
+                    <td>5% - 85%</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Artıq çəki təhlükəsi ilə üz-üzə</td>
+                    <td>85% - 95%</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Artıq çəki</td>
+                    <td>>95%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div>
+        <h1 id="artiq">Artıq çəki ilə bağlı risklər</h1>
+        <p class="four">
+            Artıq çəki olmaq bir sıra ağır xəstəliklərin və sağlamlıq vəziyyətinin riskini artırır. Xəstəliklərin
+            Kontrol və Qarşısının Alınması Mərkəzinin (CDC) məlumatına görə, aşağıda deyilən risklərin siyahısı
+            verilmişdir:
+        </p>
+        <ul class="five">
+            <li>Yüksək qan təzyiqi</li>
+            <li>Geniş yayılmış "pis xolesterol" sayılan LDL xolesterinin yüksək səviyyəsi, orta səviyyədə yaxşı
+                xolesterol hesab edilən HDL xolesterinin səviyyəsinin aşağı olması, triqliseridlərin yüksək səviyyədə
+                olması</li>
+            <li>II tip şəkərli diabet</li>
+            <li>Koronar ürək xəstəlikləri</li>
+            <li>İnsult</li>
+            <li>Qəlsəli xəstəlik</li>
+            <li>Oynaq sidik kisəsinin parçalanması nəticəsində yaranan oynaq xəstəliklərinin bir növü olan osteoxondroz
+            </li>
+            <li>Yuxu apnesi və nəfəsalma problemləri</li>
+            <li>Müəyyən xərçənglər (endometrial, döş, kolon, böyrək, qələbi, qaraciyər)</li>
+            <li>Həyat keyfiyyətinin aşağı olması</li>
+            <li>Klinik depressiya, narahatlıq və digər kimi psixi xəstəliklər</li>
+            <li>Bədən ağrıları və müəyyən fiziki funksiyalarla çətinlik</li>
+            <li>Əsasən, BMi-nin sağlam olması ilə müqayisədə ölüm riskinin artması</li>
+        </ul>
+        <p class="six">
+            Yuxarıdakı siyahıdan da göründüyü kimi, çox sayda mənfi, bəzi hallarda ölümlə nəticələnən nəticələr var ki,
+            bu da artıq çəkidən irəli gələ bilər. Əsasən insan 25 kq/m 2-dən aşağı BMI saxlamağa çalışmalıdır. Lakin
+            ideal olaraq həkimə müraciət edərək, daha sağlam olmaq üçün həyat tərzində hər hansı dəyişiklik etmək lazım
+            olub-olmadığını müəyyən etməlidir.
+        </p>
+    </div>
+
+
+    <div>
+        <h1 id="az">Çəkinin az olması ilə bağlı risklər</h1>
+        <p class="seven">
+            Çəkinin az olması öz əlaqəli riskləri var. Aşağıda qeyd olunub:
+        </p>
+        <ul class="eight">
+            <li>Qidalanma, vitamin çatışmazlığı, anemiya (qan damarlarını daşımaq qabiliyyətinin aşağı olması)</li>
+            <li>Sümük zəifliyinə səbəb olan osteoporoz, sümük qırma riskini artırır</li>
+            <li>İmmunitet funksiyasının azalması</li>
+            <li>Əməliyyat nəticəsində potensial ağırlaşmalar</li>
+            <li>böyümə və inkişaf məsələləri, xüsusilə uşaq və yeniyetmələrdə</li>
+            <li>Menstrual sikli poza bilən hormonal müvazinətsizliklərə görə qadınlar üçün mümkün reproduktiv məsələlər.
+                İlk trimestrdə də az çəkili qadınların hamilə olmaq şansı daha yüksəkdir</li>
+            <li>Əsasən, BMi-nin sağlam olması ilə müqayisədə ölüm riskinin artması</li>
+        </ul>
+        <p class="nine">
+            Bəzi hallarda çəkinin az olması anoreksiya nervosa kimi bəzi əsas vəziyyətin və ya xəstəliyin əlaməti ola
+            bilər. Bu xəstəliyin öz riskləri var. Əgər siz və ya tanıdığınız insanın çəkisinin az olduğunu
+            düşünürsünüzsə, həkimə müraciət edin. Xüsusilə də əgər çəkinin az olmasının səbəbi aydın görünmürsə.
+        </p>
+
+    </div>
+
+
+    <div class="bg-dark text-light c">
+        <h3>Email ünvanı</h3>
+        <p>togrul.huseynli.05@gmail.com</p>
+        <h3>Əlaqə nömrəsi</h3>
+        <p>+994 50 749 53 16</p>
+    </div>
+    <div class="bg-dark text-light f">
+        <h4>Huseynli Toghrul &copy; 2023</h4>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <script src="bmi.js"></script>
+
+
+</body>
+
+</html>

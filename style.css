@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.f {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    line-height: 30px;
+}
+
+.one {
+    font-size: 20px;
+    margin-top: 80px;
+    padding: 15px;
+    color: black;
+}
+
+.tool {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.two {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    color: black;
+}
+
+.three {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.four {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    color: black;
+}
+
+.five {
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.six {
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.seven {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    color: black;
+}
+
+.eight {
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    margin-left: 20px;
+}
+
+.nine {
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding: 15px;
+}
+
+#bmi {
+    font-size: 30px;
+    line-height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(241, 236, 236);
+    background-color: rgb(38, 37, 37);
+    text-align: center;
+}
+
+::selection {
+    background-color: black;
+    color: gold;
+}
+
+#Cedvel {
+    margin-top: 50px;
+}
+
+.c{
+    text-align: center;
+    margin-bottom: 34px;
+}
